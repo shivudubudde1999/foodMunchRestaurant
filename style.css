@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --primary-font:  font-family: "Poppins", sans-serif;
+}
+
+
+/* Nav bar Section Css Start */
+.navbar {
+    position:fixed;
+}
+.food-munch-logo {
+    width:80px;
+    height:70px;
+}
+.nav-link {
+    margin-right: 25px;
+}
+#navitem1 {
+    color:#323f4b;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+#navitem2 {
+    color:#323f4b;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+#navitem3 {
+    color:#323f4b;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+#navitem4 {
+    color:#323f4b;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+#navitem5 {
+    color:#323f4b;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Nav bar Section Css Completed */
+
+
+/* Banner Section Css Start*/
+
+.banner-section-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
+    background-size:cover ;
+    height:90vh;
+}
+.banner-heading {
+    color:white;
+    font-family: "Poppins", sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+}
+.banner-caption {
+    color:#f5f7fa;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+.custom-button {
+    width:130px;
+    height:45px;
+    color:white;
+    background-color: #d0b200;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.custom-outline-button{
+    width:130px;
+    height:45px;
+    color:#d0b200;
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d0b200;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+/* Banner Section Css Completed */
+
+
+/* Why Choose Us section Css start */
+
+.wcu-section {
+    background-color: #f9fbfe;
+
+}
+
+.wcu-section-heading {
+    font-size: 28px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color : #183b56;
+}
+.wcu-section-description {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color:#5a7184;
+}
+.wcu-card {
+    background-color: white;
+    text-align: center;
+    border : 1px solid #e5eaf4;
+    border-radius: 16px;;
+}
+.wcu-card-image {
+    height:90px;
+    width:90px;
+}
+.wcu-card-description {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color:#323f4b;
+}
+
+/* Why Choose Us section Css End */
+
+
+/* Explore menu section Css */
+
+.explore-menu-section{
+    background-color: white;
+}
+
+.menu-section-heading {
+    font-size: 28px;
+    font-weight: 700;
+    color:#183b56;
+    font-family: "Poppins", sans-serif;
+}
+.menu-item-image{
+    border-radius: 16px;
+   
+}
+.menu-card-title {
+    color:#323f4b;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-top: 24px;
+}
+.menu-item-link {
+    color:#d0b200;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.menu-item-card {
+    border-radius: 16px;;
+}
+.dps-image {
+    width:270px;
+}
+
+/* Explore menu section Css end */
+
+/*healthy food section css */
+
+.hfs-heading {
+    font-size: 28px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color:#183b56;
+}
+.hfs-description {
+font-family: "Poppins", sans-serif;
+font-size: 16px;
+color:#323f4b;
+}
+#hfs-btn {
+    font-size: 24px;
+    color:white;
+    border-radius: 8px;
+}
+
+.payment-card-img {
+
+    width:80px;
+    margin-right: 50px;
+}
+#hfa-btn {
+    font-size: 24px;;
+    color:white;
+    font-family: "Poppins", sans-serif;
+    border-radius: 8px;
+}
+
+/*healthy food section css end*/
+
+/* Thanking customer section css*/
+.thanking-customer-section {
+    background-color: #d5cb0099;
+}
+.thanking-customer-section-heading {
+    font-size: 28px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color:#183b56;
+}
+.thanking-customer-section-description {
+    font-family: "Poppins", sans-serif;
+font-size: 16px;
+color:#323f4b;
+}
+.thanking-customer-section-img {
+    width:100%;
+    margin-right: 50px;
+}
+
+/* Thanking customer section css end*/
+
+
+/*Follow us section*/
+.follow-us-section-heading {
+    text-align: center;
+    font-size: 38px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color:#183b56;
+
+}
+
+.follow-us-icon-container {
+   width:90px;
+   height:85px;
+    background-color: #cfc58e;
+    padding:22px;
+    margin:15px;
+    border-radius: 50px;
+}
+.icon {
+    color:#d0b200;
+    font-size: 45px;
+}
+/*Follow us section end*/
+
+/* Footer Section css*/
+.footer-section {
+    background-color: #183b56;
+
+}
+
+.footer-img {
+    width:140px;
+    
+
+}
+.footer-gmail {
+    color: #f5f7fa;
+}
+.address {
+    color: #f5f7fa;
+}
+/* Footer Section css end*/
